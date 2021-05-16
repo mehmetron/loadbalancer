@@ -1,15 +1,12 @@
-# load balancer with Service-discovery
+# load balancer
+
+***
+
+Load balance traffic to conman
+
+Algorithm implementations taken from https://github.com/smallnest/weighted
 
 
+When changing the algorithm, update the healthcheck
 
-
-1. Install then run etcd in separate terminal
-
-```
-brew install etcd
-etcd
-```
-
-```
-go get "github.com/coreos/etcd/clientv3"
-```
+***
